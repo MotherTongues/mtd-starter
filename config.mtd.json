@@ -99,6 +99,7 @@
         "targets": {
           "word": "French",
           "definition": "English",
+          "theme": "Category",
           "audio": [
             {
               "description": "Speaker",
