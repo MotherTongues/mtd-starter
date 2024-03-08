@@ -93,7 +93,7 @@
     {
       "manifest": {
         "file_type": "csv",
-        "name": "YourData",
+        "name": "starter",
         "use_header": true,
         "transducers": [],
         "targets": {
@@ -107,6 +107,7 @@
             }
           ],
           "example_sentence": ["Example"],
+          "example_sentence_definition": ["Example Definition"],
           "example_sentence_audio": [
             [
               {
