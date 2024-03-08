@@ -94,23 +94,23 @@
       "manifest": {
         "file_type": "csv",
         "name": "YourData",
-        "skip_header": true,
+        "use_header": true,
         "transducers": [],
         "targets": {
-          "word": "1",
-          "definition": "2",
+          "word": "French",
+          "definition": "English",
           "audio": [
             {
-              "description": "3",
-              "filename": "4"
+              "description": "Speaker",
+              "filename": "Audio"
             }
           ],
-          "example_sentence": ["5"],
+          "example_sentence": ["Example"],
           "example_sentence_audio": [
             [
               {
-                "description": "3",
-                "filename": "4"
+                "description": "Speaker",
+                "filename": "Example Audio"
               }
             ]
           ]
