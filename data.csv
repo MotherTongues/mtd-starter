@@ -1,6 +1,6 @@
 Category,French,English,Speaker,Audio,Example,Example Audio
-animals,alouette,lark,dhd,audio/alouette.mp3,L'alouette chante le matin,alouette1.mp3
-animals,belette,weasel,dhd,audio/belette.mp3,J'ai vu une petite belette,belette1.mp3
-animals,carcajou,wolverine,dhd,audio/carcajou.mp3,Le carcajou a toujours faim,carcajou1.mp3
-vegetables,courgette,zucchini,dhd,audio/courjette.mp3,J'ai cueilli une courgette,courgette1.mp3
-minerals,granite,granite,dhd,audio/granite,Le granite vient de St-Tite,granite1.mp3
+animals,alouette,lark,dhd,audio/alouette.mp3,L'alouette chante le matin,audio/alouette1.mp3
+animals,belette,weasel,dhd,audio/belette.mp3,J'ai vu une petite belette,audio/belette1.mp3
+animals,carcajou,wolverine,dhd,audio/carcajou.mp3,Le carcajou a toujours faim,audio/carcajou1.mp3
+vegetables,courgette,zucchini,dhd,audio/courgette.mp3,J'ai cueilli une courgette,audio/courgette1.mp3
+minerals,granite,granite,dhd,audio/granite.mp3,Le granite vient de St-Tite,audio/granite1.mp3
