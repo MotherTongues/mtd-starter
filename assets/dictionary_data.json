@@ -1,1 +1,149 @@
-{"config": {"L1": "YourLanguage", "L2": "English", "l1_search_strategy": "weighted_levenstein", "l2_search_strategy": "liblevenstein_automata", "l1_search_config": {"insertionCost": 1.0, "deletionCost": 1.0, "insertionAtBeginningCost": 1.0, "deletionAtEndCost": 1.0, "substitutionCosts": {}, "substitutionCostsPath": null, "defaultSubstitutionCost": 1.0}, "l2_search_config": null, "l1_stemmer": "none", "l2_stemmer": "snowball_english", "l1_normalization_transducer": {"lower": true, "unicode_normalization": "NFC", "remove_punctuation": "[.,/#!$%^&?*';:{}=\\-_`~()]", "remove_combining_characters": true, "replace_rules": null}, "l2_normalization_transducer": {"lower": true, "unicode_normalization": "NFC", "remove_punctuation": "[.,/#!$%^&?*';:{}=\\-_`~()]", "remove_combining_characters": true, "replace_rules": null}, "alphabet": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"], "optional_field_name": "Optional Field", "credits": null, "build": "1694556630"}, "sorted_data": [{"word": "hello", "definition": "bonjour", "entryID": "YourData0", "sorting_form": [7, 4, 11, 11, 14], "theme": "", "secondary_theme": "", "img": "", "audio": [], "definition_audio": [], "example_sentence": [], "example_sentence_definition": [], "example_sentence_audio": [], "example_sentence_definition_audio": [], "optional": {}, "source": "YourData"}], "l1_index": {"hello": {"YourData0": {"location": [["word", 0]], "score": {"word": 0.0, "total": 0.0}}}}, "l2_index": {"bonjour": {"YourData0": {"location": [["definition", 0]], "score": {"definition": 0.0, "total": 0.0}}}}}
+{
+    "config": {
+        "L1": "YourLanguage",
+        "L2": "English",
+        "l1_search_strategy": "weighted_levenstein",
+        "l2_search_strategy": "liblevenstein_automata",
+        "l1_search_config": {
+            "insertionCost": 1.0,
+            "deletionCost": 1.0,
+            "insertionAtBeginningCost": 1.0,
+            "deletionAtEndCost": 1.0,
+            "substitutionCosts": {},
+            "substitutionCostsPath": null,
+            "defaultSubstitutionCost": 1.0
+        },
+        "l2_search_config": null,
+        "l1_stemmer": "none",
+        "l2_stemmer": "snowball_english",
+        "l1_normalization_transducer": {
+            "lower": true,
+            "unicode_normalization": "NFC",
+            "remove_punctuation": "[.,/#!$%^&?*';:{}=\\-_`~()]",
+            "remove_combining_characters": true,
+            "replace_rules": null
+        },
+        "l2_normalization_transducer": {
+            "lower": true,
+            "unicode_normalization": "NFC",
+            "remove_punctuation": "[.,/#!$%^&?*';:{}=\\-_`~()]",
+            "remove_combining_characters": true,
+            "replace_rules": null
+        },
+        "alphabet": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j",
+            "k",
+            "l",
+            "m",
+            "n",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "t",
+            "u",
+            "v",
+            "w",
+            "x",
+            "y",
+            "z",
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O",
+            "P",
+            "Q",
+            "R",
+            "S",
+            "T",
+            "U",
+            "V",
+            "W",
+            "X",
+            "Y",
+            "Z"
+        ],
+        "optional_field_name": "Optional Field",
+        "credits": null,
+        "build": "1694556630"
+    },
+    "data": [
+        {
+            "word": "hello",
+            "definition": "bonjour",
+            "entryID": "YourData00",
+            "sorting_form": [
+                7,
+                4,
+                11,
+                11,
+                14
+            ],
+            "theme": "",
+            "secondary_theme": "",
+            "img": "",
+            "audio": [],
+            "video": [],
+            "definition_audio": [],
+            "example_sentence": [],
+            "example_sentence_definition": [],
+            "example_sentence_audio": [],
+            "example_sentence_definition_audio": [],
+            "optional": {},
+            "source": "YourData"
+        }
+    ],
+    "l1_index": {
+        "hello": {
+            "YourData00": {
+                "location": [
+                    [
+                        "word",
+                        0
+                    ]
+                ],
+                "score": {
+                    "word": 0.0,
+                    "total": 0.0
+                }
+            }
+        }
+    },
+    "l2_index": {
+        "bonjour": {
+            "YourData00": {
+                "location": [
+                    [
+                        "definition",
+                        0
+                    ]
+                ],
+                "score": {
+                    "definition": 0.0,
+                    "total": 0.0
+                }
+            }
+        }
+    }
+}
