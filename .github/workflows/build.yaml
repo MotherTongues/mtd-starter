@@ -36,6 +36,14 @@ jobs:
       - name: Compile dictionary data
         run: |
           cd mothertongues && uv run mothertongues export ../config.mtd.json mothertongues-UI/packages/mtd-mobile-ui/src/assets/
+      - name: Copy audio assets
+        run: |
+          # data.csv's Audio/Example Audio columns reference paths like
+          # assets/audio/<file>.mp3 (resolved at runtime as a URL relative to
+          # the deployed page), so the files need to land at that exact path
+          # inside the Angular app's own assets directory before the build.
+          mkdir -p mothertongues/mothertongues-UI/packages/mtd-mobile-ui/src/assets/audio
+          cp audio/*.mp3 mothertongues/mothertongues-UI/packages/mtd-mobile-ui/src/assets/audio/
       - name: Test
         run: |
           cd mothertongues/mothertongues-UI && npx nx test search
