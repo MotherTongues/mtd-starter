@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - main
+  # Allow rebuilding from the Actions tab, e.g. to pick up a new UI release
+  workflow_dispatch:
 
 jobs:
   deploy:
